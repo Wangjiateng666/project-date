@@ -1,0 +1,284 @@
+#content,footer,#foo,#banner,#nav{
+    overflow: hidden;
+}
+/* 返回顶部 */
+#di{
+    background:#333333; 
+    height:50px;
+    width:50px;
+    text-align: center;
+    position: fixed;
+    bottom:50px;
+    right:10px;
+    z-index: 20000;
+    display: none;
+    text-align: center;
+    border-radius: 3px 3px;
+}
+#gototop{
+    position: fixed;
+    bottom:58px;
+    right:20px;
+    height:0px;
+    width:0px;
+    border-style:solid;
+    border-width:15px;
+    border-color:transparent transparent  #fff transparent;
+}
+/* 划入中心放大图片结合js */
+@keyframes anima{
+    0%{
+        transform: scale(1);
+    } 
+    100%{
+        transform: scale(1.2);
+    }
+}
+@keyframes an{
+     0%{
+        transform:scale(1.2);
+    } 
+    100%{
+        transform: scale(1);
+    }
+}
+
+/* 导航开始 */
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #0daf2a;
+    background-color: #fff;
+    border-top:#0daf2a solid 2px;
+}
+.collapse  ul>li a{
+    display: inline-block;
+    width:100px;
+    text-align: center;
+}
+.navbar-default ul li a:hover{
+    color:#0daf2a!important;
+    background:#fff!important;
+}
+/* banner图开始 */
+#banner{
+    width:100%;
+    overflow: hidden;
+}
+#banner img{
+    width:100%;
+}
+/* 内容部分开始 */
+#cot1{
+    background: #f8f8f8;
+}
+#cot1 ul{
+    list-style-type: none;
+}
+#cot1 ul li{
+    float:left;
+}
+#cot1 ul li a{
+    height:60px;
+    line-height: 60px;
+    text-align: center;
+    display:block;
+    margin-left: 30px;
+    color:#000;
+    text-decoration: none;
+    font-size: 17px;
+}
+#cot1 a:hover{
+    color:#0daf2a;
+}
+/* 内容2 */
+.coco{
+    vertical-align: top;
+    float:left;
+    width:650px;
+    margin: 15px 0;
+}
+.coco a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+.coco a:link,.coco a:visited{
+    color: #000;
+}
+.coco a:hover{
+    color:#0daf2a;
+}
+.haha{
+    float:right;
+    margin: 20px 0;
+}
+.haha a{
+    color:#fff;
+    background: #0daf2a;
+    width:100px;
+    height:40px;
+    line-height: 40px;
+    border-radius: 3px 3px;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+}
+/* 内容2右边 */
+.aa ul{
+    list-style-type: none;
+    width:350px;
+}
+.aa ul li{
+    margin-top: 20px;
+}
+.aa ul li a img{
+     float:left;
+     vertical-align: middle;
+     margin-right: 10px;
+}
+.aa ul li a{
+    text-decoration: none;
+    color:#777;
+    display: block;
+}
+.aa ul li a b{
+    font-size: 14px;
+}
+.aa ul li a p{
+    margin-top: 50px;
+    font-size: 16px;
+}
+
+.aa ul li a:hover b{
+    color:#0daf2a;
+}
+#cot2{
+    margin:60px 0;
+}
+.right{
+text-align: center;
+border-bottom:#0daf2a solid 2px;
+margin-left: 40px;
+}
+/* 内容3 */
+@media screen and (min-width:480px){
+    #cot3{
+        margin-left: 30px;
+         }
+}
+@media screen and (min-width:750px){
+    #cot3{
+        margin-left: 100px;
+         }
+}
+@media screen and (min-width:1200px){
+    #cot3{
+        margin-left: 250px;
+         }
+}
+@media screen and (min-width:1350px){
+    #cot3{
+   margin-left: 500px;
+    }
+}
+
+#cot3{
+    width:500px;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+#cot3 ul{
+    width:400px;
+    list-style-type: none;
+}
+#cot3 ul a{
+    text-decoration: none;
+    color:#000;
+}
+#cot3 ul li{
+    text-align: center;
+    margin-left: 10px;
+    float:left;
+}
+#cot3 ul li:hover{
+    background: #0daf2a;
+    color:#fff!important;
+}
+.xixi{
+    width:100px;
+    height:50px;
+    line-height: 50px;
+}
+.mimi{
+    height:50px;
+    line-height: 50px;
+    width:50px;
+}
+.yiyi{
+    background: #0daf2a;
+    color:#fff!important;
+}
+.yiyi a{
+    color:#fff!important;
+}
+#cot3 ul li a:hover{
+    background: #0daf2a;
+    color:#fff!important;
+}
+.mimi a:hover{
+    background: #0daf2a;
+    color:#fff!important;
+}
+/* footer部分 */
+#foo{
+    width:100%;
+    background: #17171a;
+    text-align: center;
+    color:#999999;
+    font-size: 16px;
+}
+
+#foo ul{
+    height:20px;
+    list-style-type: none;
+}
+#foo ul>li{
+    display: inline;
+    text-align: center;
+}
+#foo ul>li>a{
+    display: inline-block;
+    width:100px;
+}
+.f1{
+    padding-top: 40px;
+}
+.f2{
+    padding-top: 10px;
+}
+.fo1,.fo2,.fo3,.fo4{
+    margin-top: 15px;
+}
+#foo a{
+    text-decoration: none;
+}
+#foo a:link,#foo a:visited{
+    color:#999999;
+}
+#foo a:hover{
+    color:#fff;
+}
+.fo3 a{
+    display: inline-block;
+    height:30px;
+    width:80px;
+    line-height: 30px;
+}
+.fo3 a:link,.fo3 a:visited{
+    color:#fff;
+}
+.fo3 a:hover{
+  color:#000 !important;
+  background-color: #fff;
+}

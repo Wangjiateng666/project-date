@@ -1,0 +1,205 @@
+#content,footer,#foo,#banner,#nav{
+    overflow: hidden;
+}
+/* 返回顶部 */
+#di{
+    background:#333333; 
+    height:50px;
+    width:50px;
+    text-align: center;
+    position: fixed;
+    bottom:50px;
+    right:10px;
+    z-index: 20000;
+    display: none;
+    text-align: center;
+    border-radius: 3px 3px;
+}
+#gototop{
+    position: fixed;
+    bottom:58px;
+    right:20px;
+    height:0px;
+    width:0px;
+    border-style:solid;
+    border-width:15px;
+    border-color:transparent transparent  #fff transparent;
+}
+/* 划入中心放大图片结合js */
+@keyframes anima{
+    0%{
+        transform: scale(1);
+    } 
+    100%{
+        transform: scale(1.2);
+    }
+}
+@keyframes an{
+     0%{
+        transform:scale(1.2);
+    } 
+    100%{
+        transform: scale(1);
+    }
+}
+
+/* 导航开始 */
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #0daf2a;
+    background-color: #fff;
+    border-top:#0daf2a solid 2px;
+}
+.collapse  ul>li a{
+    display: inline-block;
+    width:100px;
+    text-align: center;
+}
+.navbar-default ul li a:hover{
+    color:#0daf2a!important;
+    background:#fff!important;
+}
+/* banner图开始 */
+#banner{
+    width:100%;
+    overflow: hidden;
+}
+#banner img{
+    width:100%;
+}
+/* 内容导航开始 */
+#nav2{
+    background: #f8f8f8;
+}
+#nav2 ul{
+    list-style-type: none;
+}
+#nav2 ul li{
+    float:left;
+}
+#nav2 ul li a{
+    height:60px;
+    line-height: 60px;
+    text-align: center;
+    display:block;
+    margin-left: 30px;
+    color:#000;
+    text-decoration: none;
+    font-size: 17px;
+}
+#nav2 a:hover{
+    color:#0daf2a;
+}
+/* 内容部分开始 */
+#cot1{
+    margin-top: 50px;
+}
+#cot1{
+   border-bottom:#cec6c6 solid 1px;
+   padding-bottom: 20px;
+}
+#cot1 p{
+    line-height: 30px;
+    font-size: 16px;
+}
+/* 内容2开始 */
+#cot2{
+    margin-top: 80px;
+}
+#cot2{
+   border-bottom:#cec6c6 solid 1px;
+   padding-bottom: 20px;
+}
+#cot2 h2{
+    margin-bottom: 60px;
+}
+#cot2 p{
+    line-height: 30px;
+    font-size: 16px;
+}
+/* 第三部分开始 */
+#cot3{
+    margin-top: 80px;
+}
+#cot3{
+   border-bottom:#cec6c6 solid 1px;
+   padding-bottom: 20px;
+}
+#cot3 h2{
+    margin-bottom: 60px;
+}
+#cot3 p{
+    line-height: 30px;
+    font-size: 16px;
+}
+#cot3 img{
+    width:98%;
+}
+/* 第四部分开始 */
+#cot4{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#cot4 h2{
+    margin-bottom: 100px;
+}
+#cot4 p{
+    line-height: 30px;
+    font-size: 16px;
+}
+
+
+
+
+/* footer部分 */
+#foo{
+    width:100%;
+    background: #17171a;
+    text-align: center;
+    color:#999999;
+    font-size: 16px;
+}
+
+#foo ul{
+    height:20px;
+    list-style-type: none;
+}
+#foo ul>li{
+    display: inline;
+    text-align: center;
+}
+#foo ul>li>a{
+    display: inline-block;
+    width:100px;
+}
+.f1{
+    padding-top: 40px;
+}
+.f2{
+    padding-top: 10px;
+}
+.fo1,.fo2,.fo3,.fo4{
+    margin-top: 15px;
+}
+#foo a{
+    text-decoration: none;
+}
+#foo a:link,#foo a:visited{
+    color:#999999;
+}
+#foo a:hover{
+    color:#fff;
+}
+.fo3 a{
+    display: inline-block;
+    height:30px;
+    width:80px;
+    line-height: 30px;
+}
+.fo3 a:link,.fo3 a:visited{
+    color:#fff;
+}
+.fo3 a:hover{
+  color:#000 !important;
+  background-color: #fff;
+}

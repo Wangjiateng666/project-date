@@ -1,0 +1,273 @@
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+   position: fixed;
+   box-shadow: 9px 9px 18px -11px;
+   z-index: 12;
+}
+#header_right{
+     width: 500px;
+     height: 50px;
+    margin-top: 30px;
+   float: right;
+   margin-right: 100px;
+}
+#logo{
+    float: left;
+    margin-top: 30px;
+}
+
+#header_right>ul>li{
+    list-style-type: none;
+    float: left;
+    margin-right: 60px;
+}
+#header_right>ul>li>a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+#header_right>ul>li>a:hover{
+    color: #dc3545;
+}
+#header_right>ul>#i1{
+    position: absolute;
+    margin-left: 200px;
+}
+#header_right>#i1{
+    display: none;
+}
+#u1{
+    display: none;
+    margin-left: -51px;
+    list-style: none;
+    width: 120px;
+    height: 170px;
+   background-color: #ffff
+}
+#u1>li{
+    font-size: 15px;
+    color: darkgray;
+    margin-top: 20px;
+}
+
+#banner>#i1{
+    max-width: 100%;
+}
+
+#banner>#btn:hover{
+    background-color: #b6323f;
+}
+
+#banner>#i2{
+    display: none;
+}
+#banner>p{
+    width: 340px;
+    font-size: 39px;
+    position: absolute;
+    margin-left: 45%;
+    top: 30%;
+    color: #fff;
+    z-index: 1111111111111111111111111111111111111111111111;
+}
+
+#banner>#i3{
+    margin-top: -640px;
+   margin-left: 30%;
+   height: 500px;
+}
+#content{
+    width: 100%;
+    height: 1680px;
+}
+#content_1{
+    width: 100%;
+    height: 400px;
+    
+}
+#content_1>#content1{
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+}
+#content_1>#content1>#p1{
+    text-align: center;
+    color: #646464;
+    font-size: 1.5rem;
+}
+#content1{
+    max-width: 100%;
+}
+#content1>#p1{
+    margin-top: 7%;
+}
+#content1>#p2{
+    color: #646464;
+}
+#content1>#p3{
+    color: #646464;
+    margin-top: 50px;
+}
+
+#content_2{
+    width: 100%;
+    height: 682px;
+    background: #f8f9fa;
+  
+}
+#content_2>img{
+ margin-left: 35%;
+  
+}
+
+
+#content_3{
+    width: 100%;
+    height: 600px;
+   
+
+}
+#content_3>div{
+    float: left;
+}
+#content_3>#content_3d1{
+    margin-left: 20%;
+    margin-top: 120px;
+    position: relative;
+    border: .01rem solid #cac5c5;
+    width: 365px;
+    height: 345px;
+    background: url(../image/o1.png) no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    
+}
+#content_3>#content_3d1>img{
+    display: none;
+}
+#content_3>#content_3d2>img{
+    display: none;
+}
+#content_3>#content_3d3>img{
+    display: none;
+}
+
+#content_3>#content_3d2{
+    margin-left: 50px;
+   margin-top: 120px;
+    position: relative;
+    border: .01rem solid #cac5c5;
+    width: 365px;
+    height: 345px;
+    background: url(../image/o2.png) no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+#content_3>#content_3d3{
+    margin-left: 50px;
+    margin-top: 120px;
+    position: relative;
+    border: .01rem solid #cac5c5;
+    width: 365px;
+    height: 345px;
+    background: url(../image/o3.png) no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 1rem;
+    cursor: pointer;
+   
+}
+
+#footer{
+    width: 100%;
+    height: 320px;
+    background: #000;
+}
+
+
+#footer>#copyright{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 33%;
+    width: 600px;
+    height: 100px;
+}
+#footer>#copyright>p{
+       color: #fff;
+}
+@media (max-width:1810px){
+   #text_1,#text_3{
+       margin-left: 15%;
+   }
+   
+}
+
+@media (max-width:1500px){
+    #content_1{
+        width: 100%;
+        height: 400px;
+        
+    }
+    #content_1>#content1>ul{
+        display: none;
+     }
+    #text_1,#text_3{
+        display: none;
+    }
+    #banner>#i3{
+        display: none;
+    }
+    #content_3>#content_3d2,#content_3d3{
+        display: none;
+    }
+    #content_2>img{
+        margin-left: 20%;
+    }
+}
+@media (max-width:800px){
+   #header{
+       background: #2b3643;
+   }
+   #content_1>#content1>ul{
+       display: none;
+    }
+ 
+   #logo>img{
+       display: none;
+   }
+   #header_right>ul{
+       display: none;
+   }
+   #header_right>#i1{
+       display: block;
+       margin-left: 490px;
+       position: absolute;
+   }
+   #banner>#i2{
+       display: block;
+       max-width: 100%;
+   }
+   
+   #footer>#help{
+       display: none;
+   }
+   #footer>#partners{
+       display:none;
+   }
+   #copyright{
+       display: none;
+   }
+   #text_1,#text_2,#text_3{
+       display: none;
+   }
+   #content_2>img{
+    margin-left: 0px;
+}
+   #content_3>#content_3d2,#content_3d3{
+    display: none;
+}
+}

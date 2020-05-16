@@ -1,0 +1,240 @@
+@charset "UTF-8";
+.navbar-toggle {
+  float: left;
+  border: none;
+  background-color: none;
+}
+
+/*大屏*/
+@media screen and (min-width: 480px) {
+  /*nav*/
+  .navbar {
+    padding: 0 180px;
+  }
+  .navbar-nav > li {
+    padding-left: 50px;
+  }
+  /*nav*/
+  .shop {
+    position: absolute;
+    right: 15%;
+    margin: 4px 0;
+  }
+  .ss > input {
+    display: none;
+  }
+  /*footer*/
+  /* footer */
+  .conta {
+    width: 960px;
+    position: relative;
+    height: 100%;
+    margin: 0 auto;
+    z-index: 9;
+  }
+  .footer {
+    height: 336px;
+    width: 100%;
+  }
+  .foot_top {
+    padding: 50px 0 35px;
+    height: 438px;
+    border-bottom: 1px solid #585858;
+  }
+  .foot_top ul {
+    margin: 0;
+    padding: 0;
+  }
+  .foot_top ul li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    float: left;
+    margin: 0 20px;
+    width: 150px;
+  }
+  .tel {
+    width: 320px;
+    height: 130px;
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    text-align: center;
+  }
+  h2, h5 {
+    margin-top: 8px;
+  }
+  .foot_bot {
+    margin-top: 10px;
+    color: #ccc;
+  }
+  .aa1 > span {
+    display: block;
+    font-weight: 300;
+    margin-top: 15px;
+    font-size: 12px;
+  }
+  .aa1 > span a {
+    color: #515154;
+  }
+  .xx > li > p {
+    display: none;
+  }
+}
+
+/*大屏*/
+/*大屏结束*/
+/*小屏*/
+@media screen and (max-width: 480px) {
+  /* 按钮 */
+  .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background: none;
+  }
+  .shop {
+    position: absolute;
+    right: 0px;
+    margin: 4px 5px;
+  }
+  /* 按钮结束 */
+  /*logo*/
+  .navbar-brand {
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+  }
+  /*logo*/
+  /*nav*/
+  .navbar-inverse .navbar-nav > li > a {
+    color: #f5f5f7;
+  }
+  .navbar-nav {
+    padding: 45px 40px;
+    font-size: 18px;
+    color: #f5f5f7;
+  }
+  .navbar-nav li {
+    border-bottom: 1px solid #fff;
+  }
+  .navbar-nav li a {
+    padding-left: 0px;
+  }
+  .nav, .navbar-nav {
+    background: rgba(0, 0, 0, 0.5);
+    float: none;
+    height: 600px;
+  }
+  /*nav*/
+  .ss {
+    display: block;
+  }
+  .ss input {
+    width: 100%;
+    position: absolute;
+    top: -40px;
+    color: #ccc;
+    border-radius: 30px;
+    background: transparent;
+    border: 1px solid #ccc;
+    display: block;
+    padding-left: 10px;
+    font-size: 15px;
+  }
+  /* footer */
+  .conta {
+    position: relative;
+    height: 100%;
+    margin: 0 auto;
+    z-index: 9;
+  }
+  .footer {
+    height: 215px;
+    width: 100%;
+  }
+  .foot_top {
+    padding: 0 20px;
+    height: auto;
+    border-bottom: 1px solid #585858;
+    border-top: 1px solid #585858;
+    margin: 10px  auto;
+    width: 90%;
+  }
+  .foot_top ul {
+    margin: 0;
+    padding: 0;
+  }
+  .foot_top ul li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 300;
+    color: #000;
+    margin: 5px 0;
+  }
+  .tel {
+    width: 80%;
+    height: 80px;
+    text-align: center;
+    position: relative;
+    border-bottom: 1px solid #000;
+    margin: 0 auto;
+  }
+  h2, h5 {
+    margin-top: 8px;
+  }
+  .t1 {
+    display: inline-block;
+    position: absolute;
+    left: 70px;
+    top: 10px;
+    font-size: 12px;
+  }
+  .t2 {
+    display: inline-block;
+    position: absolute;
+    left: 38px;
+    top: 34px;
+    font-size: 18px;
+  }
+  .t3 {
+    display: inline-block;
+    position: absolute;
+    right: 40px;
+    top: 10px;
+    font-size: 12px;
+  }
+  .t4 {
+    display: inline-block;
+    position: absolute;
+    right: 40px;
+    top: 34px;
+    font-size: 12px;
+  }
+  .foot_bot {
+    margin-top: 10px;
+    color: #ccc;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px 10px;
+  }
+  .aa1 {
+    display: none;
+    font-size: 12px;
+    padding: 10px 10px;
+    overflow: hidden;
+  }
+  .aa1 span {
+    display: block;
+    width: 33.3%;
+    height: 32px;
+    float: left;
+    text-align: center;
+  }
+  .xx > li {
+    position: relative;
+  }
+  .xx > li p {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+}

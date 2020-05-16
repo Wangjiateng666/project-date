@@ -1,0 +1,55 @@
+.cont2 {
+  background: #f0f0f0;
+  padding: 24px 0;
+}
+.cont2 > .row {
+  margin: 0;
+}
+.cont2 > .row .p_list {
+  padding: 10px;
+}
+.cont2 > .row .p_list > a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background: #fff;
+  height: 430px;
+  padding: 60px 10px;
+  color: #333;
+  transition: all 0.75s;
+}
+.cont2 > .row .p_list > a img {
+  max-width: 230px;
+  width: 100%;
+  max-height: 230px;
+}
+.cont2 > .row .p_list > a > div {
+  margin-top: 10px;
+}
+.cont2 > .row .p_list > a > div .image {
+  margin-bottom: 0;
+}
+.cont2 > .row .p_list > a > div .details {
+  margin-bottom: 0;
+  color: #999;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+.cont2 > .row .p_list > a > div .price {
+  margin-bottom: 0;
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.cont2 > .row .p_list > a > div .price > span {
+  color: #999;
+  font-size: 14px;
+}
+.cont2 > .row .p_list > a:hover {
+  transform: translate3d(0, -6px, 0);
+  -moz-box-shadow: 0px 4px 10px #e6e6e6;
+  -webkit-box-shadow: 0px 4px 10px #e6e6e6;
+  box-shadow: 0px 4px 10px #e6e6e6;
+}

@@ -1,0 +1,7 @@
+1：bug:图片之间有间隙
+解决:调整margin值
+2：bug:文字位置不对
+解决：调整相对位置
+3: margin-top带动父元素移动
+解决:在父元素上加overflow:hidden
+

@@ -1,0 +1,22 @@
+{
+    "data":{
+        "0":{
+            "img":"ind_cont3_01.jpg",
+            "name":"产品热评",
+            "ps":"『玩转nubia UI』个性熄屏，自己掌控！",
+            "href":""
+        },
+        "1":{
+            "img":"ind_cont3_02.jpg",
+            "name":"新闻中心",
+            "ps":"nubia Play新品发布会一分钟回顾",
+            "href":""
+        },
+        "2":{
+            "img":"ind_cont3_03.jpg",
+            "name":"视频长廊",
+            "ps":"nubia logo 升级动画",
+            "href":""
+        }
+    }
+}

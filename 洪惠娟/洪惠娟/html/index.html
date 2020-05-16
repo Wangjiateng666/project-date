@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>网站首页</title>
+  <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <!-- <link href="./css/carousel.css" rel="stylesheet"> -->
+  <link href="../css/index.css" rel="stylesheet" type="text/css">
+  <script src="../js/jquery.min.js" type="text/javascript"></script>
+  <script src="../js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../js/index.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <!-- 导航开始 -->
+  <nav class="navbar navbar-default" style="height:60px; width:100%;background-color: #fff ;border-bottom:#fff">
+    <div class="container">
+      <!-- 缩小显示三杠的按钮和图片 -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1" aria-expanded="false" style="margin-top: 20px">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="../img/nav1.png" style="height:60px; width:180px;"></a>
+      </div>
+
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="float:right">
+        <ul class="nav navbar-nav" style="padding-top:15px">
+          <li class="active"><a href="#">网站首页<span class="sr-only">(current)</span></a></li>
+          <li><a href="#">公司简介</a></li>
+          <li><a href="#">产品展示</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">新闻资讯<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">iphone11快充</a></li>
+              <li><a href="#">技术支持</a></li>
+              <li><a href="#">公司动态</a></li>
+              <li><a href="#">业界资讯</a></li>
+              <li><a href="#">产品评测</a></li>
+              <li><a href="#">设置教程</a></li>
+            </ul>
+          </li>
+          <li><a href="#">下载中心</a></li>
+          <li><a href="#">工作机会</a></li>
+          <li><a href="#">联系我们</a></li>
+        </ul>
+
+
+
+        <form class="navbar-form navbar-left">
+          <!-- <div class="form-group">
+            <input type="text" class="form-control" placeholder="请输入关键字">
+          </div> -->
+          <button type="submit" class="btn btn-default" style="border:transparent;padding-top:20px"><span
+              class="glyphicon glyphicon-search" aria-hidden="true"></span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!-- 轮播图开始 -->
+
+  <div id="banner">
+    <div class="container-fluid">
+      <div id="myCarousel" class="carousel slide">
+        <!-- 轮播（Carousel）指标 -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+        <!-- 轮播（Carousel）项目 -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="../img/banner1.jpg" alt="First slide">
+          </div>
+          <div class="item">
+            <img src="../img/banner2.jpg" alt="Second slide">
+          </div>
+          <div class="item">
+            <img src="../img/banner3.jpg" alt="Third slide">
+          </div>
+          <div class="item">
+            <img src="../img/banner4.jpg" alt="Forth slide">
+          </div>
+        </div>
+        <!-- 轮播（Carousel）导航 -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div id="content">
+    <div id="cot1">
+      <h3>我们为您推荐的产品</h3>
+      <p>以实际使用场景为出发点，为您设计简而美的产品</p>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <a>
+              <div class="small"><img src="../img/index1-1.jpg"></div>
+              <p>绿联任天堂Switch蓝牙适配器</p>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <a >
+              <div class="small"><img src="../img/index1-2.jpg"></div>
+              <p>绿联Apple Watch充电支架</p>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <a>
+              <div class="small"><img src="../img/index1-3.jpg"></div>
+              <p>绿联USB-C扩展坞11合1</p>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <a>
+              <div class="small"><img src="../img/index1-4.jpg"></div>
+              <p>绿联升降可伸缩手机平板支架</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div id="cot2">
+      <h3>我们为您推荐的产品</h3>
+      <p>以实际使用场景为出发点，为您设计简而美的产品</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+            <video src="../img/index2-1.mp4" controls width="800px" height="450px" poster="../img/index2-1.png"
+              id="vid"></video>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="cot3">
+      <h3>我们为您推荐的产品</h3>
+      <p>以实际使用场景为出发点，为您设计简而美的产品</p>
+      <div class="container c3">
+        <div class="row cot3-1">
+
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+            <a href="#" style="display:block;" class="big">
+              <img src="../img/index3-1.png"> </a>
+            <h2>04-16</h2>
+            <div class="mm">
+              <p>
+                <a href="#"><strong>iPhone se2充电功率和充电时间说明</strong></a>
+                iPhone的充电和续航一直是果粉关注的焦点问题，4月15日晚苹果官网上架了新款iPhone，官方命名为iPhone se第二代（并非iPhone9），那么新iPhone
+                se的充电功率多大，是否有充电慢的问题呢，下文一起看看iPhone se2在充电和续航方面表现吧。
+              </p>
+              <p>标签：
+                <a href="#">充电功率</a>
+                <a href="#">充电功率</a>
+                <a href="#">充电功率</a>
+              </p>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+            <a  style="display:block;" class="big">
+              <img src="../img/index3-2.jpg"></a>
+            <h2>03-23</h2>
+            <div class="mm">
+              <p>
+                <a href="#"><strong>新款iPad Pro 2020和2018电池续航和充电速度对比" </strong></a>
+                3月18日晚苹果官网上架了两款新iPad Pro，两款iPad Pro 2020外观大小分别为11英寸和12.9英寸，搭载苹果A12Z仿生芯片，起售价分别为6288元和7899元。那么两款iPad Pro
+                2020电池续航情况怎样呢？
+              </p>
+              <p>标签：
+                <a href="#">iPad </a>
+                <a href="#"> Pro</a>
+                <a href="#">2020充电速度</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+            <a  style="display:block;" class="big">
+              <img src="../img/index3-3.jpg"></a>
+            <h2>02-11</h2>
+            <div class="mm">
+              <p>
+                <a href="#"><strong>2020开门红：绿联喜提6项德国iF设计大奖</strong></a>
+                近日，被誉为“工业设计界奥斯卡”的iF设计奖(iF Industrie Forum
+                Design)公布了2020获奖作品，UGREEN绿联携吸盘式无线充、USB-C多功能扩展坞等6款产品从全球54国的6400多件参赛作品中脱颖而出，继2019获奖后再次喜提iF设计大奖。
+              </p>
+              <p>标签：
+                <a href="#">UGREEN绿联</a>
+                <a href="#">iF设计奖</a>
+                <a href="#">多功能扩展坞</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="container c3">
+            <div class="row cot3-2">
+              <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <a  style="display:block;" class="big">
+                  <img src="../img/index3-4.jpg"></a>
+                <h2>12-03</h2>
+                <div class="mm">
+                  <p>
+                    <a href="#"><strong>为什么苹果iPhone手机提示不支持此配件</strong></a>
+                    iPhone产品提示“不支持此配件”或者“此电缆或配件尚未经过认证,因此可能无法配合此iPhone可靠地工作”的原因以及解决方法。
+                  </p>
+                  <p>标签：
+                    <a href="#">iPhone数据线</a>
+                    <a href="#">MFi</a>
+                    <a href="#">数据线</a>
+                  </p>
+                </div>
+              </div>
+
+
+
+              <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <a  style="display:block;" class="big">
+                  <img src="../img/index3-5.jpg"></a>
+                <h2>03-31</h2>
+                <div class="mm">
+                  <p>
+                    <a href="#"><strong>iPad Pro 2020电脑模式常见问题解答</strong></a>
+                    前文我们详细简述了iPad Pro 2020的电脑属性，iPad Pro 2020可以通过USB-C接口扩展出更多电脑玩法，比如外接鼠标键盘打字，外接网线上网等，那么作为平板电脑的iPad
+                    Pro跟笔记本电脑有什么区别呢？iPad Pro可以玩电脑游戏LOL吗？今天我们来对iPad Pro 2020应用中的常见问题做一个解答。
+                  </p>
+                  <p>标签：
+                    <a href="#">英雄联盟</a>
+                    <a href="#">电脑</a>
+                    <a href="#">编程</a>
+                  </p>
+                </div>
+              </div>
+
+
+              <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <a  style="display:block;" class="big">
+                  <img src="../img/index3-6.jpg"></a>
+                <h2>03-30</h2>
+                <div class="mm">
+                  <p>
+                    <a href="#"><strong>提高iPad生产力：iPad Pro2020电脑模式实物评测</strong></a>
+                    前文我们讲过新款iPad Pro的一些电脑属性，iPad Pro2020可以通过USB-C接口扩展出更多电脑玩法，搭配USB-C扩展坞，新iPad
+                    Pro可以外接鼠标键盘、U盘硬盘存储卡等，甚至还可以外接网线上网，真正的提高iPad生产力。那么今天绿豆就用刚到手的新iPad Pro和绿联USB-C扩展坞来评测下它的电脑模式玩法。
+                  </p>
+                  <p>标签：
+                    <a href="#">iPad生产力</a>
+                    <a href="#">iPad Pro2020电脑模式</a>
+                    <a href="#">USB-C扩展坞</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+
+
+      </div>
+
+
+
+
+
+
+
+      <!-- 尾部 -->
+      <footer>
+        <div id="foot1">
+          <h3>与我们联系</h3>
+          <p>您若有建议或产品使用中的疑问，可通过以下方式与我们取得联系</p>
+        </div>
+
+        <div id="foot2">
+          <div class="container">
+            <!-- 左边 -->
+            <div class="row ft1">
+              <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+                <h5>深圳市绿联科技有限公司</h5>
+                <div>
+                  <p><em class="glyphicon glyphicon-map-marker">&nbsp;</em>地址：广东省深圳市龙华新区龙城工业区绿联办公室</p>
+                  <p><em class="glyphicon glyphicon-calendar">&nbsp;</em>电话：0755-28066995 / 4000668398</p>
+                  <p><em class="glyphicon glyphicon-eye-open">&nbsp;</em>传真：0755-28066815</p>
+                  <p><em class="glyphicon glyphicon-comment">&nbsp;</em>邮编：518131</p>
+                  <p><em class="glyphicon glyphicon-shopping-cart">&nbsp;</em>商城：<a href="#">天猫绿联旗舰店 </a>|<a
+                      href="#">京东绿联旗舰店</a></p>
+                </div>
+              </div>
+              <!-- 右边 -->
+              <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+                <form id="myForm">
+                  <input type="text" placeholder="姓名" id="username"><br>
+                  <input type="tel" placeholder="电话"><br>
+                  <input type="email" placeholder="Email"><br>
+                  <textarea placeholder="留言内容"></textarea><br>
+                  <input type="text" placeholder="验证码"><br>
+                  <button>提交留言</button>
+                </form>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </footer>
+      <!-- 最尾部分 -->
+      <div id="foo">
+        <div class="f1">
+          <ul>
+            <li>友情链接：</li>
+            <li><a href="#">手机数据线 </a></li>
+            <li><a href="#">网站制作 </a></li>
+            <li><a href="#"> 网站地图</a></li>
+            <li><a href="#"> 微信直播</a></li>
+            <li><a href="#"> TOM科技</a></li>
+          </ul>
+        </div>
+        <div class="f2">
+          <div class="fo1">
+            <a href="#">iPhone11快充</a>
+            <a href="#">iPhone11快充</a>
+            <a href="#">iPhone11快充</a>
+            <a href="#">iPhone11快充</a>
+          </div>
+          <div class="fo2">
+            <p>数据线,HDMI线,移动电源,车充,蓝牙,数码配件专业品牌-UGREEN绿联!
+              <a href="#">粤ICP备12028978号-1 </a><img src="../img/footer1.gif"></p>
+          </div>
+          <div class="fo3">
+            <a href="#">简体中文</a>
+          </div>
+
+          <div class="fo4">
+            <p>Powered by <a href="#">UGREEN绿联</a> </p>
+          </div>
+        </div>
+      </div>
+<!-- 返回顶部 -->
+<div id="di"><p id="gototop"></p></div>
+<!-- 右侧部分 -->
+
+</body>
+
+</html>

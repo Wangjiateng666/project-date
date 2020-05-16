@@ -1,0 +1,112 @@
+{
+    "date": {
+        "1": {
+            "firstchild": {
+                "name": "关于我们"
+            },
+            "secoudchild": [
+                {
+                    "name": "关于nubia",
+                    "href": ""
+                },
+                {
+                    "name": "联系我们",
+                    "href": ""
+                },
+                {
+                    "name": "合作伙伴",
+                    "href": ""
+                },
+                {
+                    "name": "企业购",
+                    "href": ""
+                }
+            ]
+        },
+        "2": {
+            "firstchild": {
+                "name": "手机"
+            },
+            "secoudchild": [
+                {
+                    "name": "nubia Play",
+                    "href": ""
+                },
+                {
+                    "name": "红魔5G",
+                    "href": ""
+                },
+                {
+                    "name": "红魔3S",
+                    "href": ""
+                },
+                {
+                    "name": "Z20",
+                    "href": ""
+                },
+                {
+                    "name": "红魔3",
+                    "href": ""
+                },
+                {
+                    "name": "NubiaX",
+                    "href": ""
+                },
+                {
+                    "name": "中兴手机",
+                    "href": ""
+                }
+            ]
+        },
+        "3": {
+            "firstchild": {
+                "name": "热门活动"
+            },
+            "secoudchild": [
+                {
+                    "name": "努比亚会员",
+                    "href": ""
+                },
+                {
+                    "name": "NB码通道",
+                    "href": ""
+                },
+                {
+                    "name": "以旧换新",
+                    "href": ""
+                }
+            ]
+        },
+        "4": {
+            "firstchild": {
+                "name": "服务支持"
+            },
+            "secoudchild": [
+                {
+                    "name": "售后服务",
+                    "href": ""
+                },
+                {
+                    "name": "售后网点",
+                    "href": ""
+                },
+                {
+                    "name": "特色服务",
+                    "href": ""
+                },
+                {
+                    "name": "软件下载",
+                    "href": ""
+                },
+                {
+                    "name": "产品安全",
+                    "href": ""
+                },
+                {
+                    "name": "云服务",
+                    "href": ""
+                }
+            ]
+        }
+    }
+}

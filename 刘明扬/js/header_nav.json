@@ -1,0 +1,186 @@
+{
+    "date": {
+        "1": {
+            "firstchild": {
+                "name": "z系列",
+                "href": "index.html"
+            },
+            "secoudchild":{
+                "1": {
+                    "first": {
+                        "name": ""
+                    },
+                    "secoud": [
+                        {
+                            "name": "z20",
+                            "p": "",
+                            "img": "zzz_01.png",
+                            "href": "xx.html"
+                        },{
+                            "name": "x",
+                            "p": "",
+                            "img": "zzz_02.png",
+                            "href": "xx.html"
+                        }
+                    ]
+                }
+            }
+        },
+        "2": {
+            "firstchild": {
+                "name": "红魔",
+                "href": "red.html"
+            },
+            "secoudchild":{
+                "1": {
+                    "first": {
+                        "name": ""
+                    },
+                    "secoud": [
+                        {
+                            "name": "红魔5G",
+                            "p": "新品",
+                            "img": "red_01.png",
+                            "href": "xx.html"
+                        },{
+                            "name": "红魔3s",
+                            "p": "",
+                            "img": "red_02.png",
+                            "href": "xx.html"
+                        }, {
+                            "name": "红魔3",
+                            "p": "新品",
+                            "img": "red_03.png",
+                            "href": "xx.html"
+                        },{
+                            "name": "红魔Mars",
+                            "p": "",
+                            "img": "red_04.png",
+                            "href": "xx.html"
+                        }
+                    ]
+                }
+            }
+        },
+        "3": {
+            "firstchild": {
+                "name": "智能生态",
+                "href": "intelligence.html"
+            },
+            "secoudchild": {
+                "1": {
+                    "first": {
+                        "name": "智能穿戴"
+                    },
+                    "secoud": [
+                        {
+                            "name": "努比亚阿尔法",
+                            "p": "",
+                            "img": "int1_01.png",
+                            "href": "xx.html"
+                        }
+                    ]
+                },
+                "2": {
+                    "first": {
+                        "name": "创意配件"
+                    },
+                    "secoud": [
+                        {
+                            "name": "65W氘锋氮化镓充电器",
+                            "p": "新品",
+                            "img": "int2_01.png",
+                            "href": "xx.html"
+                        },
+                        {
+                            "name": "努比亚 Play 5G双滑轨保护套",
+                            "p": "",
+                            "img": "int2_02.png",
+                            "href": "xx.html"
+                        },
+                        {
+                            "name": "努比亚 Play 5G向量保护套",
+                            "p": "新品",
+                            "img": "int2_03.png",
+                            "href": "xx.html"
+                        },
+                        {
+                            "name": "45W闪充氘锋移动电源",
+                            "p": "",
+                            "img": "int2_04.png",
+                            "href": "xx.html"
+                        }
+                    ]
+                },
+                "3": {
+                    "first": {
+                        "name": "声学"
+                    },
+                    "secoud": [
+                        {
+                            "name": "红魔战鼓便携式TWS音箱",
+                            "p": "",
+                            "img": "int3_01.png",
+                            "href": "xx.html"
+                        },
+                        {
+                            "name": "万魔联名 （时尚真无线耳机）",
+                            "p": "",
+                            "img": "int3_02.png",
+                            "href": "xx.html"
+                        },
+                        {
+                            "name": "律音耳机（新版）",
+                            "p": "",
+                            "img": "int3_03.png",
+                            "href": "xx.html"
+                        },
+                        {
+                            "name": "蓝牙耳机",
+                            "p": "",
+                            "img": "int3_04.png",
+                            "href": "xx.html"
+                        }
+                    ]
+                },
+                "4": {
+                    "first": {
+                        "name": "生活"
+                    },
+                    "secoud": [
+                        {
+                            "name": "车载香薰",
+                            "p": "新品",
+                            "img": "int3_01.png",
+                            "href": "xx.html"
+                        }
+                    ]
+                }
+            }
+        },
+        "4": {
+            "firstchild": {
+                "name": "品牌",
+                "href": "brand.html"
+            } 
+        },
+        "5": {
+            "firstchild": {
+                "name": "服务",
+                "href": "service.html"
+            }
+        },
+        "6": {
+            "firstchild": {
+                "name": "社区",
+                "href": "https://bbs.nubia.com/portal.php"
+            }
+        },
+        "7": {
+            "firstchild": {
+                "name": "体验店",
+                "href": "experience.html"
+            }
+        }
+    }
+}

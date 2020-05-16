@@ -1,0 +1,623 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #333;
+}
+a:hover {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+header {
+  position: relative;
+  width: 100%;
+  background: #fff;
+  z-index: 999;
+}
+header a.head_nav-menu {
+  padding: 0 10px;
+  height: 100%;
+  position: absolute;
+  left: 20px;
+  padding-top: 21px;
+  display: none;
+}
+header a.head_nav-menu b {
+  position: relative;
+  width: 18px;
+  height: 12px;
+  display: inline-block;
+}
+header a.head_nav-menu b em {
+  top: 50%;
+  width: 72.22%;
+  margin-top: -1px;
+}
+header .search-active {
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  transform: translate(-50%);
+  width: 700px;
+  height: auto;
+  background: #fff;
+  padding: 0 50px;
+}
+header .search-active .icon-magnify-glass {
+  position: absolute;
+  top: 18px;
+  left: 20px;
+  font-size: 24px;
+  font-weight: 900;
+  color: #999;
+  cursor: pointer;
+}
+header .search-active input {
+  display: inline-block;
+  border: 0;
+  vertical-align: top;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  color: #101920;
+  font-size: 14px;
+  background-color: #fff;
+  height: 60px;
+  border-radius: 30px;
+}
+header .search-active .icon-times {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 20px;
+  font-weight: 900;
+  color: #999;
+  cursor: pointer;
+}
+header .search-active .search-box > ul {
+  background: #fff;
+  padding: 10px 0;
+  margin-bottom: 0;
+}
+header .search-active .search-box > ul li a {
+  display: inline-block;
+  width: 100%;
+  padding: 20px 40px;
+  background: #fff;
+  color: #999;
+  font-size: 14px;
+}
+header .search-active .search-box > ul li a:hover {
+  background: #eee;
+  color: #333;
+}
+header > .navnav {
+  height: 60px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+header > .navnav > li {
+  float: left;
+  height: 60px;
+  list-style: none;
+  line-height: 60px;
+}
+header > .navnav > li.logo {
+  height: 60px;
+  width: 20%;
+}
+header > .navnav > li.logo a {
+  display: inline-block;
+  padding: 30px 0;
+  width: 100%;
+  background: url(../img/nav-logo.png) no-repeat center;
+  background-size: 65%;
+}
+header > .navnav > li.nav {
+  width: 60%;
+  text-align: center;
+}
+header > .navnav > li.nav .nav-ul {
+  height: 60px;
+  margin-top: 0;
+}
+header > .navnav > li.nav .nav-ul > li {
+  float: left;
+}
+header > .navnav > li.nav .nav-ul > li > a {
+  padding: 23px 33px;
+  color: #333;
+  font-weight: 500;
+  font-size: 14px;
+}
+header > .navnav > li.nav .nav-ul > li > a:hover {
+  color: #777;
+}
+header > .navnav > li.nav .nav-ul > li .nav-li-box {
+  display: none;
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 60px;
+  background: #fff;
+  transition: 0.25s;
+  overflow: hidden;
+}
+header > .navnav > li.nav .nav-ul > li .nav-li-box > div {
+  width: 1200px;
+  margin: 0 auto;
+  height: 200px;
+  position: relative;
+}
+header > .navnav > li.nav .nav-ul > li .nav-li-box > div .content_list {
+  width: 20%;
+  float: left;
+  height: 200px;
+  padding-left: 5%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+header > .navnav > li.nav .nav-ul > li .nav-li-box > div .content_list > ul {
+  width: 100%;
+}
+header > .navnav > li.nav .nav-ul > li .nav-li-box > div .content_list > ul > li {
+  height: 30px;
+  line-height: 30px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  color: #333;
+}
+header > .navnav > li.nav .nav-ul > li .nav-li-box > div .content_list > ul > li span {
+  display: inline-block;
+  padding: 0 10px;
+}
+header > .navnav > li.nav .nav-ul > li .nav-li-box > div .content_list > ul > li .content_con {
+  width: 70%;
+  float: left;
+  display: none;
+  justify-content: left;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 20%;
+  z-index: 99999;
+}
+header > .navnav > li.nav .nav-ul > li .nav-li-box > div .content_list > ul > li .content_con ul > a li {
+  width: 168px;
+  float: left;
+}
+header > .navnav > li.nav .nav-ul > li .nav-li-box > div .content_list > ul > li .content_con ul > a li img {
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+}
+header > .navnav > li.nav .nav-ul > li .nav-li-box > div .content_list > ul > li .content_con ul > a li p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+header > .navnav > li.nav .nav-ul > li .nav-li-box > div .content_list > ul > li .content_con ul > a li p.new_tag {
+  color: #de634f;
+}
+header > .navnav > li.nav .nav-ul > li .nav-li-box > div .content_list > ul > li.active > .content_con {
+  display: block;
+}
+header > .navnav > li.nav .nav-ul > li:hover .nav-li-box {
+  display: block;
+}
+header > .navnav > li.header-right {
+  z-index: 999;
+  width: 20%;
+}
+header > .navnav > li.header-right ul.ss {
+  position: relative;
+}
+header > .navnav > li.header-right ul.ss > li {
+  float: left;
+}
+header > .navnav > li.header-right ul.ss > li > a {
+  display: inline-block;
+  padding: 20px 10px;
+  height: 100%;
+  line-height: 20px;
+}
+header > .navnav > li.header-right ul.ss > li > a i {
+  font-weight: 900;
+  color: #333;
+  font-size: 20px;
+}
+header > .navnav > li.header-right ul.ss > li.uesr {
+  padding-left: 60px;
+}
+header > .navnav > li.header-right ul.ss > li.uesr .denglu {
+  display: none;
+  position: absolute;
+  top: 60px;
+  right: 60px;
+  background: #fff;
+  width: 360px;
+  height: auto;
+  padding: 20px;
+  transition: 0.25s;
+  overflow: hidden;
+}
+header > .navnav > li.header-right ul.ss > li.uesr .denglu ul li {
+  margin-bottom: 15px;
+  float: none;
+  text-align: left;
+  width: 100%;
+  font-weight: 400;
+  border-bottom: 1px solid #eee;
+}
+header > .navnav > li.header-right ul.ss > li.uesr .denglu ul li > a {
+  color: #999;
+}
+header > .navnav > li.header-right ul.ss > li.uesr .denglu ul li > a.d {
+  font-weight: 500;
+  color: #de634f;
+  display: block;
+  float: left;
+  margin-bottom: 5px;
+}
+header > .navnav > li.header-right ul.ss > li.uesr .denglu ul li > a:hover {
+  color: #333;
+}
+header > .navnav > li.header-right ul.ss > li.uesr .denglu ul li span {
+  display: block;
+  float: right;
+}
+header > .navnav > li.header-right ul.ss > li.uesr .denglu ul li:last-child {
+  border: none;
+}
+header > .navnav > li.header-right ul.ss > li.uesr:hover div.denglu {
+  display: block;
+}
+header > .navnav > li.header-right ul.ss > li.car .car-box {
+  display: none;
+  position: absolute;
+  top: 60px;
+  right: 60px;
+  background: #fff;
+  width: 360px;
+  height: auto;
+  padding: 20px;
+  transition: 0.25s;
+  overflow: hidden;
+}
+header > .navnav > li.header-right ul.ss > li.car .car-box li {
+  text-align: center;
+  width: 100%;
+  line-height: 30px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  border-bottom: 1px solid #eee;
+}
+header > .navnav > li.header-right ul.ss > li.car .car-box li a {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 3px;
+  background-color: #f00;
+  color: #fff;
+  font-weight: 500;
+  margin-top: 20px;
+  padding: 0;
+}
+header > .navnav > li.header-right ul.ss > li.car .car-box li:last-child {
+  border: none;
+}
+header > .navnav > li.header-right ul.ss > li.car:hover .car-box {
+  display: block;
+}
+#content {
+  margin: 10px 0;
+  width: 100%;
+  color: #333333;
+  overflow: hidden;
+}
+#content .cont1 {
+  position: relative;
+}
+#content .cont1 .t {
+  display: block;
+  width: 100%;
+}
+#content .cont1 .t img {
+  width: 100%;
+}
+#content .cont2 .row .col-md-6 {
+  padding: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  height: 460px;
+  position: relative;
+}
+#content .cont2 .row .col-md-6 a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  color: #333;
+  transition: 0.25s;
+}
+#content .cont2 .row .col-md-6 div {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  top: 5%;
+}
+#content .cont2 .row .col-md-6 div h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+#content .cont2 .row .col-md-6 div p {
+  font-size: 16px;
+  font-weight: 400;
+}
+#content .cont3 {
+  background: #f0f0f0;
+  width: 100%;
+  padding: 40px;
+}
+#content .cont3 .row .col-md-4 {
+  padding: 0 25px;
+}
+#content .cont3 .row .col-md-4 a img {
+  width: 100%;
+}
+#content .cont3 .row .cont-text {
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+#content .cont3 .row .cont-text p {
+  font-weight: 400;
+}
+#content .cont3 .row .cont-text .p1 {
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 5px;
+}
+#content .cont3 .row .cont-text .p2 {
+  font-size: 18px;
+  color: #333;
+  height: 60px;
+  width: 100%;
+  overflow: hidden;
+}
+#content .cont3 .row .cont-text > a {
+  font-size: 14px;
+  color: #5097df;
+}
+footer {
+  padding: 50px 7% 0 7%;
+}
+footer .contain {
+  max-width: 1200px;
+  margin: auto;
+}
+footer .foot1 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+footer .foot1 .foot1-row {
+  text-align: center;
+}
+footer .foot1 .foot1-row .col-md-3 {
+  margin-bottom: 30px;
+}
+footer .foot1 .foot1-row .col-md-3 a {
+  color: #000;
+  transition: all 0.25s;
+}
+footer .foot1 .foot1-row .col-md-3 a:hover {
+  color: #777;
+}
+footer .foot1 .foot1-row .col-md-3 a i {
+  display: block;
+  font-weight: 900;
+  font-size: 50px;
+  margin-bottom: 20px;
+  transition: 0.25s;
+  padding-top: 10px;
+}
+footer .foot1 .foot1-row .col-md-3 a span {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.25s;
+}
+footer .foot2 {
+  border-bottom: 1px solid #eee;
+  padding: 50px 0;
+}
+footer .foot2 .foot2-row .col-md-2 {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #333;
+}
+footer .foot2 .foot2-row .col-md-2 p {
+  font-size: 16px;
+  height: 50px;
+  line-height: 50px;
+}
+footer .foot2 .foot2-row .col-md-2 i {
+  display: none;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+footer .foot2 .foot2-row .col-md-2 ul li {
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  color: #999;
+  margin-bottom: 10px;
+  height: 21px;
+}
+footer .foot2 .foot2-row .col-md-2 ul li a {
+  color: #999;
+}
+footer .foot2 .foot2-row .col-md-2 ul li a:hover {
+  color: #333;
+}
+footer .foot2 .foot2-row > .call_me {
+  text-align: right;
+}
+footer .foot2 .foot2-row > .call_me div {
+  margin-bottom: 20px;
+  color: #a5a5a5;
+  font-weight: 400;
+}
+footer .foot2 .foot2-row > .call_me div .online {
+  border-radius: 50px;
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  cursor: pointer;
+  color: #fff;
+  background: #666;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 5px;
+}
+footer .foot2 .foot2-row > .call_me div .online:hover {
+  background: #333;
+}
+footer .foot2 .foot2-row > .call_me div > p {
+  margin-bottom: 0;
+  color: #999;
+  line-height: 24px;
+  font-size: 14px;
+}
+footer .foot2 .foot2-row > .call_me div > p b {
+  font-size: 20px;
+  color: #333;
+}
+footer .foot2 .foot2-row > .call_me div a {
+  position: relative;
+}
+footer .foot2 .foot2-row > .call_me div a i {
+  font-weight: 900;
+  font-size: 24px;
+  color: #999;
+  margin-left: 20px;
+}
+footer .foot2 .foot2-row > .call_me div a img {
+  display: none;
+  position: absolute;
+  top: -110px;
+  left: -20px;
+  width: 100px;
+  border: 1px solid #999;
+}
+footer .foot2 .foot2-row > .call_me div a:hover img {
+  display: block;
+}
+footer .foot3 {
+  background-color: #ff00;
+}
+footer .foot3 > .row div {
+  padding: 30px 0px 0px 0px;
+  text-align: left;
+  position: relative;
+  color: #999;
+  font-size: 12px;
+  line-height: 18px;
+}
+footer .foot3 > .row div a {
+  color: #999;
+}
+footer .foot3 > .row div a:hover {
+  color: #333;
+}
+footer .foot3 > .row .col-md-2 .btn {
+  color: #333;
+  background: transparent;
+  font-size: 12px;
+  font-weight: 500;
+}
+footer .foot3 > .row .col-md-2 .btn:hover {
+  color: #fff !important;
+  background: #666;
+  border-radius: 50px;
+}
+div.txt {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: auto;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+div.txt div {
+  text-align: center;
+}
+div.txt div h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+div.txt div p.ps {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+div.txt div p span {
+  font-size: 18px;
+  font-weight: 500;
+}
+div.txt div p .buy {
+  width: 150px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 34px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 50px;
+  background-color: transparent;
+  border: 1px solid #333;
+  border-radius: 50px;
+  transition: all 0.25s;
+}
+div.txt div p .buy:hover {
+  text-decoration: none;
+  background-color: #333;
+  border: 1px solid transparent;
+  color: #fff;
+}
+div.txt div p .more {
+  font-weight: 400;
+  margin: 0 auto;
+}
+div.tst {
+  color: #fff;
+}
+div.tst div p .buy {
+  border: 1px solid #fff;
+  color: #fff;
+}
+div.tst div p .buy:hover {
+  background-color: #fff;
+  color: #333;
+}
+div.tst div p .more {
+  color: #fff;
+}
